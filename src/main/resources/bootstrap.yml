@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: application # github上获取配置文件名,不用带后缀 .yml
+      profile: dev
+      label: master
+      uri: http://localhost:3344
